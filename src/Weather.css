@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #aa573b 0%, #346f84 100%);
+    color: rgb(9, 9, 9);
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
+.top input {
+    height: 60px;
+    text-align: center;
+    font-size: 36px;
+    width: 400px;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 80px;
+    margin-top: 40px;
+    background-color: rgb(234, 253, 171);
+    cursor: pointer;
+    border-radius: 60px;
+}
+
+.temp {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.place {
+    margin-top: 10px;
+    font-size: 72px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+    margin-top: 80px;
+    color: white;
+}
+
+.bottom-in {
+    display: flex;
+    margin: auto;
+    gap: 40px;
+}
